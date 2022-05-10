@@ -4,6 +4,8 @@ import {
 } from 'react-native';
 import { Button } from './src/components'
 
+console.disableYellowBox = true;
+
 const App = () => {
 
   return (
@@ -13,4 +15,5 @@ const App = () => {
   );
 };
 
-export default App;
+//export default App;
+export { default } from './storybook';
